@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .main{
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row py-5 text-center bg-primary text-white">
+        <h1>My First Bootstrap 5 Page</h1>
+        <h5>Persize this responsive page to see the effect</h5>
+    </div>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="row d-flex flex-row main">
+        <div class="col-3">
+            <div class="card border-0">
+                <h1>About Me</h1>
+                <h3>Photo of me:</h3>
+                <img src="" class="card-img-top bg-secondary p-5" alt="Fake Image">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div>
+                <h1>Some Links</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active bg-primary text-white" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card border-0">
+                <h1>Title Heading</h1>
+                <h3>Title Description, Dec 7,2020</h3>
+                <img src="" class="card-img-top bg-secondary p-5" alt="Fake Image">
+                <div class="card-body">
+                    <p>Some Text</p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, repellendus.</p>
+                </div>
+            </div>
+            <div class="card border-0">
+                <h1>Title Heading</h1>
+                <h3>Title Description, Dec 7,2020</h3>
+                <img src="" class="card-img-top bg-secondary p-5" alt="Fake Image">
+                <div class="card-body">
+                    <p>Some Text</p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, repellendus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-white p-5 text-center">
+        <h5>Footer</h5>
+    </footer>
+</body>
+</html>
